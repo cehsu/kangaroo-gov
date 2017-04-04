@@ -8,8 +8,8 @@ describe('getWinner Function', function() {
     });
   });
   describe('Test with a tied candidates', function() {
-    it('should return tie when these are ["John Doe", "Jane Smith", "Jane Austen"],[[1, 2, 3], [2, 1, 3],[2, 3, 1]]', function() {
-      assert.equal(getWinner(["John Doe", "Jane Smith", "Jane Austen"],[[1, 2, 3], [2, 1, 3], [2, 3, 1]]), "tie");
+    it('should return tie when these are ["John Doe", "Jane Smith", "Jane Austen"],[[1, 2, 3], [2, 1, 3],[3, 2, 1]]', function() {
+      assert.equal(getWinner(["John Doe", "Jane Smith", "Jane Austen"],[[1, 2, 3], [2, 1, 3], [3, 2, 1]]), "tie");
     });
   });
 });
