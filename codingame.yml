@@ -1,6 +1,10 @@
-title : Content name
+title : Kangaroo.gov
 plan:
-  - title: Part 1
+  - title: Majority rulez! The first to get 50% of the vote wins it all in this topsy turvey game from Down Under.
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+projects:
+  mocha:
+   root: root
+   runner:
+    name: codingame/node-npm-runner
+    version: latest
